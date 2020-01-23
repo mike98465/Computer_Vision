@@ -1,0 +1,15 @@
+#Readme
+
+#共有5個檔案
+	* hw1_1.py : 將 original.jpg 轉灰階、rotate 和 scale，以及呼叫四個function
+	* Gaussian_Smooth.py : 包含 gaussian_smooth() ，display並儲存處理後的影像
+	* Sobel_Edge_Detection.py : 包含 sobel_edge_detection() ，display並儲存處理後的影像
+	* Structure_Tensor.py : 包含 structure_tensor() ，用來計算 harris response function
+	* NMS.py : 包含 nms() ，display並儲存final result 影像
+
+#Execution
+只要直接執行 hw1_1.py 即可：
+python hw1_1.py
+
+1.中間步驟的影像會一張一張display，只要將matplot的視窗關掉就會繼續執行
+2.中間處理structure tensor部分大概需要等 4~5 分鐘
